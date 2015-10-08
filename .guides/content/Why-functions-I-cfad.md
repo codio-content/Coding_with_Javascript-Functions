@@ -1,6 +1,6 @@
 Let's look at an example of some more complex code that is badly written. We'll discuss why it's bad on the next page.
 
-{Run the code}(./run-code.sh example-no-func)
+{Run the code}(node run-user.js 1-intro/example-no-func.js)
 
 Look at the blocks of code FIRST ONE, SECOND ONE and THIRD ONE. See how they are all doing the exact same thing?
 
