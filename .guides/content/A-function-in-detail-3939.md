@@ -21,7 +21,7 @@ function volumeCylinder( radius, height ) {
 We name a function with the same rules that apply to a variable. In this case we're calling our function `volumeCylinder()`.
 
 ## Code block
-Rather like and `if` statement or a `for` loop, the function gets its own code block. It starts with a `{` and is followed ny as many lines of code as you want. At the end of the code block is a closing `}`.
+Rather like an `if` statement or a `for` loop, the function gets its own code block. It starts with a `{` and is followed ny as many lines of code as you want. At the end of the code block is a closing `}`.
 
 ## Arguments
 After the function name come any *arguments* that the function receives. Some functions do not take any arguemnts.
