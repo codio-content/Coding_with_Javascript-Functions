@@ -1,53 +1,29 @@
-
 //
 // FIRST ONE
 // 
-string1 = 'Frankie|c Mary and Johnny'
-// isNan() checks if the field can be converted into a number
-if ( isNaN( string1 ) || string1 == '') {
-  // Not a number, so replace |c with ,
-  while ( (pos = string1.indexOf('|c'))  != -1 ) {
-    string1 = string1.substring(0, pos) + ',' + string1.substring(pos+2)
-  }
-  console.log( string1 )
-}
-else {
-  // It can be converted into a number
-  num1 = parseFloat( string1 )
-  console.log( num1 )
-}    
+var radius1= 2
+var height1= 4
+var circle1= radius1 * radius1           // area of bottom
+var volume1= Math.PI * bottom1 * height1 // figure volume
+var weight1= volume1 * 4                 // figure weight
+console.log( weight1 )
 
 //
 // SECOND ONE
 // 
-string2 = '12345'
-// isNan() checks if the field can be converted into a number
-if ( isNaN( string2 ) || string2 == '') {
-  // Not a number, so replace |c with ,
-  while ( (pos = string2.indexOf('|c'))  != -1 ) {
-    string2 = string2.substring(0, pos) + ',' + string2.substring(pos+2)
-  }
-  console.log( string2 )
-}
-else {
-  // It can be converted into a number
-  num2 = parseFloat( string2 )
-  console.log( num2 )
-}    
+var radius2= 5
+var height2= 7
+var circle2= radius2 * radius2           // area of bottom
+var volume2= Math.PI * circle2 * height2 // figure volume
+var weight2= volume2 * height2           // figure weight
+console.log( weight2 )
 
+//
 // THIRD ONE
 // 
-string3 = 'Dog|c cat|c mouse'
-// isNan() checks if the field can be converted into a number
-if ( isNaN( string3 ) || string3 == '') {
-  // Not a number, so replace |c with ,
-  while ( (pos = string3.indexOf('|c'))  != -1 ) {
-    string3 = string3.substring(0, pos) + ',' + string3.substring(pos+2)
-  }
-  console.log( string3 )
-}
-else {
-  // It can be converted into a number
-  num3 = parseFloat( string3 )
-  console.log( num3 )  
-}    
+var radius3= 1
+var height3= 35
+var circle3= radius3 * radius3           // area of bottom
+var volume3= Math.PI * circle3 * height3 // figure volume
+var weight3= volume3 * 8                 // figure weight
+console.log( weight3 )

@@ -1,28 +1,33 @@
-function convertField(str) {
-  
-  // isNan() checks if the field can be converted into a number
-  if ( isNaN( str ) || str == '') {
-    // Not a number, so replace |c with ,
-    while ( (pos = str.indexOf('|c'))  != -1 ) {
-      str = str.substring(0, pos) + ',' + str.substring(pos+2)
-    }
-  }
-  else {
-    // It can be converted into a number
-    str = parseFloat( str )
-  }    
-  return str
+// calculate the area of a circle
+function areaCircle(radius){
+  return radius * radius
 }
 
-string1 = 'Frankie|c Mary and Johnny'
-value = convertField( string1 )
-console.log ( value )
+// calculate the volume of a cylinder
+function volumeCylinder( radius, height ) {
+  return Math.PI * areaCircle(radius) * height
+}
 
-string2 = '12345'
-value = convertField( string2 )
-console.log ( value )
+// calculate the weight of a cylynder (per unit)
+function weightCylinder( radius, height, weight ) {
+  return volumnCylinder( radius, height ) * weight
+}
 
-string3 = 'Dog|c cat|c mouse'
-value = convertField( string3 )
-console.log ( value )
+var radius1= 2
+var height1= 4
+var weight1= weightCylinder(radius1, height1, 4) // calculate the weight
+console.log( weight1 )
+
+var radius2= 5
+var height2= 7
+var weight2= weightCylinder(radius2, height2, 6) // calculate the weight
+console.log( weight2 )
+
+var radius3= 1;
+var height3= 35;
+var weight3= weightCylinder(radius3, height3, 8) // calculate the weight
+console.log( weight3 )
+
+
+
 
