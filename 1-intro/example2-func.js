@@ -1,7 +1,7 @@
 
 // caclulate the volume of a cylinder
 function volumeCylinder( radius, height ) {
-  v = Math.PI * radius * radius * height
+  var v = Math.PI * radius * radius * height
   return v
 }
 

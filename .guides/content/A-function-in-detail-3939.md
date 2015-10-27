@@ -4,7 +4,7 @@ If we now look at the function `volumeCylinder()`, we'll explain how it is const
 
 ```javascript
 function volumeCylinder( radius, height ) {
-  v = Math.PI * radius * radius * height
+  var v = Math.PI * radius * radius * height
   return v
 }
 ```

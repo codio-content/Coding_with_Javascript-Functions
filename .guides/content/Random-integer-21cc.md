@@ -1,5 +1,3 @@
-{Run the code}(node run-user random-integer.js)
-
 {Check It!|assessment}(test-1468068757)
 
 |||guidance
@@ -10,12 +8,12 @@ function randomInteger(min, max) {
 }
 
 // Create a testing loop to make sure we are getting both 0 and 10 at the extremes
-for (i=0; i < 50; i++ ) {
-  output ( randomInteger(0, 10) )
+for (var i=0; i < 50; i++ ) {
+  console.log ( randomInteger(0, 10) )
 }
 
 // Try a couple of other different ranges
-output ( randomInteger(100, 1000) )
-output ( randomInteger(20, 30) )
+console.log ( randomInteger(100, 1000) )
+console.log ( randomInteger(20, 30) )
 ```
 |||

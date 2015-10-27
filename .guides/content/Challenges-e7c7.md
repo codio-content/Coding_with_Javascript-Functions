@@ -6,11 +6,10 @@ In these challenges, you will write functions that we will call. You can test th
 ```javascript
 // caclulate the volume of a cylinder
 function volumeCylinder( radius, height ) {
-  v = Math.PI * radius * radius * height
-  return v
+  return Math.PI * radius * radius * height
 }
 
-output ( 'r=10, h=20 => V=' + volumeCylinder( 10, 20 ) )
+console.log( 'r=10, h=20 => V=' + volumeCylinder( 10, 20 ) )
 ```
 
 Jusy call your function yourself anywhere outside the function as `value = convertField( string1 )` does above.
