@@ -1,6 +1,6 @@
 If we now look at the function `volumeCylinder()`, we'll explain how it is constructed.
 
-{Run the code}(node run-user.js 1-intro/example2-func.js)
+{Run the code}(node run-user.js content/1-intro/example2-func.js)
 
 ```javascript
 function volumeCylinder( radius, height ) {

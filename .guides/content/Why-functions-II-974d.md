@@ -1,6 +1,6 @@
 Here is the some code that does the exact same thing the right way. Using a function.
 
-{Run the code}(node run-user.js 1-intro/example-func.js)
+{Run the code}(node run-user.js content/1-intro/example-func.js)
 
 ## Why is it better?
 Just look at the code on the left compared to the code on the previous page. Go back a page and look. You should immediately see how much nicer it looks. 

@@ -1,1 +1,1 @@
-{Run the code}(node run-user random-integer.js)
+{Run the code}(node run-user challenges/random-integer.js)

@@ -37,7 +37,7 @@
      "action": "close"
     },
     {
-     "path": "experiment.js",
+     "path": "challenges/experiment.js",
      "panel": 0,
      "action": "open"
     }
@@ -59,7 +59,7 @@
      "action": "close"
     },
     {
-     "path": "1-intro-read-simple.js",
+     "path": "content/1-intro-read-simple.js",
      "panel": 0,
      "action": "open"
     }
@@ -83,7 +83,7 @@
      "action": "close"
     },
     {
-     "path": "1-intro/example2-func.js",
+     "path": "content/1-intro/example2-func.js",
      "panel": 0,
      "action": "open"
     }
@@ -116,7 +116,7 @@
      "action": "close"
     },
     {
-     "path": "1-intro/example-no-func.js",
+     "path": "content/1-intro/example-no-func.js",
      "panel": 0,
      "action": "open"
     }
@@ -138,7 +138,7 @@
      "action": "close"
     },
     {
-     "path": "1-intro/example-func.js",
+     "path": "content/1-intro/example-func.js",
      "panel": 0,
      "action": "open"
     }
@@ -177,7 +177,7 @@
      "action": "close"
     },
     {
-     "path": "random-integer.js",
+     "path": "challenges/random-integer.js",
      "panel": 0,
      "action": "open"
     }
@@ -199,7 +199,7 @@
      "action": "close"
     },
     {
-     "path": "red.js",
+     "path": "challenges/red.js",
      "panel": 0,
      "action": "open"
     }

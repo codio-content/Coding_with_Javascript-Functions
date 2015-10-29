@@ -8,7 +8,7 @@ function output() {
 }
 
 try {
-  var data = fs.readFileSync('/home/codio/workspace/random-integer.js', 'UTF8');
+  var data = fs.readFileSync('/home/codio/workspace/challenges/random-integer.js', 'UTF8');
   eval(data);  
    
   if(typeof randomInteger == 'function') {

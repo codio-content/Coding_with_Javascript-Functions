@@ -8,7 +8,7 @@ function output() {
 }
 
 try {
-  var data = fs.readFileSync('/home/codio/workspace/red.js', 'UTF8');
+  var data = fs.readFileSync('/home/codio/workspace/challenges/red.js', 'UTF8');
   eval(data);  
    
   if(typeof isRed == 'function') {
