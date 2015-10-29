@@ -59,7 +59,7 @@
      "action": "close"
     },
     {
-     "path": "content/1-intro-read-simple.js",
+     "path": "content/1-intro/read-simple.js",
      "panel": 0,
      "action": "open"
     }
