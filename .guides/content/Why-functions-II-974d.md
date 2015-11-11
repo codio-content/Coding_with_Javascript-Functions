@@ -3,7 +3,7 @@ Here is the some code that does the exact same thing the right way. Using a func
 {Run the code}(node run-user.js content/1-intro/example-func.js)
 
 ## Why is it better?
-Just look at the code on the left compared to the code on the previous page. Go back a page and look. You should immediately see how much nicer it looks. 
+One of our *Programming Principles* for this Unit is **information hiding** which is accomplished here by hiding the calculations necessary to figure the weight of a cylinder behind a single function call.
 
 ### Duplication
 The reason this code is better is that we no longer have duplicated bits of code. In this example we are only calling the function a couple of times.
