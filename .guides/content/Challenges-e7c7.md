@@ -12,4 +12,4 @@ function volumeCylinder( radius, height ) {
 console.log( 'r=10, h=20 => V=' + volumeCylinder( 10, 20 ) )
 ```
 
-Jusy call your function yourself anywhere outside the function as `value = convertField( string1 )` does above.
+Just call your function yourself anywhere outside the function as `value = volumeCylinder(10,20)` does above.

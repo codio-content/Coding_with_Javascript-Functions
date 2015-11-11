@@ -57,11 +57,6 @@
     {
      "path": "#tabs",
      "action": "close"
-    },
-    {
-     "path": "content/1-intro/read-simple.js",
-     "panel": 0,
-     "action": "open"
     }
    ],
    "layout": "1-panel",
