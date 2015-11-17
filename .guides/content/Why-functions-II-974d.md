@@ -1,6 +1,6 @@
 Here is the some code that does the exact same thing the right way. Using a function.
 
-{Run the code}(node run-user.js content/1-intro/example-func.js)
+{Run the code}(node content/1-intro/example-func.js)
 
 ## Why is it better?
 One of our *Programming Principles* for this Unit is **information hiding** which is accomplished here by hiding the calculations necessary to figure the weight of a cylinder behind a single function call.

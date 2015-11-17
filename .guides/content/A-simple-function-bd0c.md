@@ -1,4 +1,4 @@
-{Run the code}(node run-user.js content/1-intro/example2-func.js)
+{Run the code}(node content/1-intro/example2-func.js)
 
 On the left is a simple example that shows a function `volumeCylinder()` that has 2 arguments.
 
