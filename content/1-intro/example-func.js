@@ -10,7 +10,7 @@ function volumeCylinder( radius, height ) {
 
 // calculate the weight of a cylynder (per unit)
 function weightCylinder( radius, height, weight ) {
-  return volumnCylinder( radius, height ) * weight
+  return volumeCylinder( radius, height ) * weight
 }
 
 var radius1= 2

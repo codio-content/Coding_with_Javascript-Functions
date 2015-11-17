@@ -4,7 +4,7 @@
 var radius1= 2
 var height1= 4
 var circle1= radius1 * radius1           // area of bottom
-var volume1= Math.PI * bottom1 * height1 // figure volume
+var volume1= Math.PI * circle1 * height1 // figure volume
 var weight1= volume1 * 4                 // figure weight
 console.log( weight1 )
 
