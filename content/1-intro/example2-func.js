@@ -5,6 +5,7 @@ function volumeCylinder( radius, height ) {
   return v
 }
 
-console.log ( 'r=10, h=20 => V=' + volumeCylinder( 10, 20 ) )
-console.log ( 'r=1, h=10 => V=' + volumeCylinder( 1, 10 ) )
-console.log ( 'r=125, h=2520 => V=' + volumeCylinder( 125, 2520 ) )
+console.log ( 'r,   h  => V')
+console.log ( '10,  20    ' + volumeCylinder( 10, 20 ) )
+console.log ( '1,   10    ' + volumeCylinder( 1, 10 ) )
+console.log ( '125, 2520  ' + volumeCylinder( 125, 2520 ) )

@@ -62,8 +62,9 @@ function function_test {
     var fs = require('fs');
     var stdout= console.log;
     console.log= function(){};
-    eval(fs.readFileSync("${JS_TEST_SCRIPT}", 'UTF8'))
-    stdout(${FUNCTION_TO_CALL})
+    eval(fs.readFileSync("${JS_TEST_SCRIPT}", 'UTF8'));
+    console.log= stdout;
+    console.log(${FUNCTION_TO_CALL})
 EOF
 )
 }
