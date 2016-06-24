@@ -93,7 +93,7 @@
   },
   {
    "id": "cfad9e54-393a-9e7b-ca98-c8e941da1ef2",
-   "title": "Why functions I",
+   "title": "Why functions? part I",
    "files": [
     {
      "path": "#tabs",
@@ -108,14 +108,14 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Why-functions-I-cfad.md",
+   "content-file": ".guides/content/Why-functions--part-I-cfad.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false
   },
   {
    "id": "974d11c1-908e-f5e6-b498-6cf64763dc84",
-   "title": "Why functions II",
+   "title": "Why functions? part II",
    "files": [
     {
      "path": "#tabs",
