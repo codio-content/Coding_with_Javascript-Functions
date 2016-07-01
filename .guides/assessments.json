@@ -1,0 +1,34 @@
+[
+ {
+  "type": "test",
+  "taskId": "test-1468068757",
+  "source": {
+   "showName": true,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "points": 1,
+   "command": "bash tests/random-integer-test.sh",
+   "instructions": "Write a function called `randomInteger` that takes two number parameters `min` and `max` and returns a random integer value between `min` and `max`.",
+   "name": "Random Integer"
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-1648558933",
+  "source": {
+   "showName": true,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "points": 1,
+   "command": "bash tests/red-test.sh",
+   "instructions": "Write a function `isRed` that takes a string `str` and determines if the string contains the word 'red'. If it does return `true` else return `false`. \n\nYou will need to use the `str.lastIndexOf('characters to look for')` or `str.indexOf('characters to look for')` method which return a valid index if the string was found or `-1` if it wasn't.",
+   "name": "Is Red"
+  }
+ }
+]
